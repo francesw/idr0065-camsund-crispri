@@ -55,19 +55,17 @@ def read_phenotypic_positions(directory):
     return positions
 
 
-def write_companion(image, folder):
+def write_companion(image, file_path):
     # Generate companion OME-XML file
-    companion_file = join(
-        folder, basename(folder) + '.companion.ome')
-    create_companion(images=[image], out=companion_file)
+    create_companion(images=[image], out=file_path)
 
     # Indent XML for readability
     proc = subprocess.Popen(
-        ['xmllint', '--format', '-o', companion_file, companion_file],
+        ['xmllint', '--format', '-o', file_path, file_path],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE)
     (output, error_output) = proc.communicate()
-    logging.info("Created %s" % companion_file)
+    logging.info("Created %s" % file_path)
 
 
 def create_phenotypic_companions(directory):
@@ -93,14 +91,27 @@ def create_phenotypic_companions(directory):
         #     planes[(0, 0)]['timestamp']/1000.0).isoformat()
 
         for t in range(481):
-            image.add_tiff(planes[(0, t)]["filename"], c=0, z=0, t=t)
+            image.add_tiff("%s/%s" % (
+                basename(folder), planes[(0, t)]["filename"]),
+                c=0, z=0, t=t)
 
         for t in range(240):
-            image.add_tiff(planes[(1, t)]["filename"], c=1, z=0, t=2 * t)
-            image.add_tiff(planes[(1, t)]["filename"], c=1, z=0, t=2 * t + 1)
-        image.add_tiff(planes[(1, 240)]["filename"], c=1, z=0, t=480)
+            image.add_tiff("%s/%s" % (
+                basename(folder), planes[(1, t)]["filename"]),
+                c=1, z=0, t=2 * t)
+            image.add_tiff("%s/%s" % (
+                basename(folder), planes[(1, t)]["filename"]),
+                c=1, z=0, t=2 * t + 1)
+        image.add_tiff("%s/%s" % (
+            basename(folder), planes[(1, t)]["filename"]),
+            c=1, z=0, t=2 * t + 1)
+        image.add_tiff("%s/%s" % (
+            basename(folder), planes[(1, 240)]["filename"]),
+            c=1, z=0, t=480)
 
-        write_companion(image, folder)
+        companion_file = join(
+            pheno_directory, basename(folder) + '.companion.ome')
+        write_companion(image, companion_file)
 
 
 def create_genotypic_companions(directory):
@@ -127,17 +138,25 @@ def create_genotypic_companions(directory):
             image.add_channel("fam", 0)
 
             index = str(i + 1).zfill(2)
-            image.add_tiff("phase/%s.tiff" % index, c=5 * i, z=0, t=0)
             image.add_tiff(
-                "1_cy5_fluor/%s.tiff" % index, c=5 * i + 1, z=0, t=0)
+                "%s/phase/%s.tiff" % (basename(folder), index),
+                c=5 * i, z=0, t=0)
             image.add_tiff(
-                "2_cy3_fluor/%s.tiff" % index, c=5 * i + 2, z=0, t=0)
+                "%s/1_cy5_fluor/%s.tiff" % (basename(folder), index),
+                c=5 * i + 1, z=0, t=0)
             image.add_tiff(
-                "3_TxR_fluor/%s.tiff" % index, c=5 * i + 3, z=0, t=0)
+                "%s/2_cy3_fluor/%s.tiff" % (basename(folder), index),
+                c=5 * i + 2, z=0, t=0)
             image.add_tiff(
-                "4_fam_flour/%s.tiff" % index, c=5 * i + 4, z=0, t=0)
+                "%s/3_TxR_fluor/%s.tiff" % (basename(folder), index),
+                c=5 * i + 3, z=0, t=0)
+            image.add_tiff(
+                "%s/4_fam_flour/%s.tiff" % (basename(folder), index),
+                c=5 * i + 4, z=0, t=0)
 
-        write_companion(image, folder)
+        companion_file = join(
+            geno_directory, basename(folder) + '.companion.ome')
+        write_companion(image, companion_file)
 
 
 if __name__ == "__main__":
