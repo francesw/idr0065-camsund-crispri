@@ -132,10 +132,10 @@ def create_genotypic_companions(directory):
 
         for i in range(GENO_CYCLES):
             image.add_channel("phase", -1)
-            image.add_channel("cy5", 0)
-            image.add_channel("cy3", 0)
-            image.add_channel("TxR", 0)
-            image.add_channel("fam", 0)
+            image.add_channel("cy5", -16776961)
+            image.add_channel("cy3", 16711935)
+            image.add_channel("TxR", 65535)
+            image.add_channel("fam", -65281)
 
             index = str(i + 1).zfill(2)
             image.add_tiff(
