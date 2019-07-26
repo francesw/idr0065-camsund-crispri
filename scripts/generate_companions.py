@@ -126,37 +126,39 @@ def create_genotypic_companions(directory):
         "Found %g folders under %s" % (len(geno_folders), geno_directory))
 
     for folder in geno_folders:
-        image = Image(
-            basename(folder), 2048, 879, 1, 5 * GENO_CYCLES, 1,
-            order="XYZCT", type="uint16")
-
         for i in range(GENO_CYCLES):
-            image.add_channel("phase", -1)
-            image.add_channel("cy5", -16776961)
-            image.add_channel("cy3", 16711935)
+            image = Image(
+                basename(folder), 2048, 879, 1, 5, 1,
+                order="XYZCT", type="uint16")
+
+            image.add_channel("Cy5", -16776961)
+            image.add_channel("Cy3", 16711935)
             image.add_channel("TxR", 65535)
-            image.add_channel("fam", -65281)
+            image.add_channel("Fam", -65281)
+            image.add_channel("Phase", -1)
 
             index = str(i + 1).zfill(2)
-            image.add_tiff(
-                "%s/phase/%s.tiff" % (basename(folder), index),
-                c=5 * i, z=0, t=0)
+
             image.add_tiff(
                 "%s/1_cy5_fluor/%s.tiff" % (basename(folder), index),
-                c=5 * i + 1, z=0, t=0)
+                c=0, z=0, t=0)
             image.add_tiff(
                 "%s/2_cy3_fluor/%s.tiff" % (basename(folder), index),
-                c=5 * i + 2, z=0, t=0)
+                c=1, z=0, t=0)
             image.add_tiff(
                 "%s/3_TxR_fluor/%s.tiff" % (basename(folder), index),
-                c=5 * i + 3, z=0, t=0)
+                c=2, z=0, t=0)
             image.add_tiff(
                 "%s/4_fam_flour/%s.tiff" % (basename(folder), index),
-                c=5 * i + 4, z=0, t=0)
+                c=3, z=0, t=0)
+            image.add_tiff(
+                "%s/phase/%s.tiff" % (basename(folder), index),
+                c=4, z=0, t=0)
 
-        companion_file = join(
-            geno_directory, basename(folder) + '.companion.ome')
-        write_companion(image, companion_file)
+            companion_file = join(
+                geno_directory, basename(folder) + '_round' + index +
+                '.companion.ome')
+            write_companion(image, companion_file)
 
 
 if __name__ == "__main__":
