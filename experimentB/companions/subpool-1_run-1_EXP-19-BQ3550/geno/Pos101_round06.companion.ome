@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:fb885a6d-d8ce-4e10-9ccc-30a0815e56c5" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:6" Name="Pos101">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:6:6" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:27" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:28" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:29" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:30" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/1_cy5_fluor/06.tiff">urn:uuid:893b71f8-4f52-4e57-8333-4521bfab23a6</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/2_cy3_fluor/06.tiff">urn:uuid:ba2d3383-09ce-47e5-b5c2-eb0f21328953</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/3_TxR_fluor/06.tiff">urn:uuid:96946757-3306-44f8-842e-ce7365bd70d9</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/4_fam_flour/06.tiff">urn:uuid:6545a45d-0ee6-43d8-b098-f6cce4b8f326</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/phase/06.tiff">urn:uuid:a0b28a52-9840-4825-b3b6-711815188d74</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>
