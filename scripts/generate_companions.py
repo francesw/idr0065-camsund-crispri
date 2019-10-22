@@ -154,7 +154,9 @@ def create_phenotypic_companions():
                         image.add_tiff(None, c=1, z=0, t=(2 * i) + 1)
                 elif t == (2 * i) + 1:
                     image.add_tiff(None, c=1, z=0, t=2 * i)
-                    image.add_tiff(relative_path, c=1, z=0, t=t, planeCount=1)
+                    if t != 481:
+                        image.add_tiff(relative_path, c=1, z=0, t=t,
+                                       planeCount=1)
                 else:
                     raise Exception("Invalid mapping")
                 image.add_plane(c=1, z=0, t=t, options=plane_options)
