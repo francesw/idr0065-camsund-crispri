@@ -2,7 +2,9 @@
 continue: true
 transfer: "ln_s"
 exclude: "clientpath"
-skip: "checksum"
+skip:
+  - checksum
+  - minmax
 parallel_upload: "8"
 columns:
   - target
