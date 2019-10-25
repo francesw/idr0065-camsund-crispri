@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Generate companion files for experimentA of the idr0064 study. This script
+# Generate companion files for experimentA of the idr0065 study. This script
 # assumes the following layout for the original data:
 #
 #  <microscopic_slide>/        All data associated with a microscopic slide
@@ -18,24 +18,19 @@
 #        4_fam_flour/          Fluorescence acquisition (11 cycles)
 #        phase/                Phase acquisition (11 cycles)
 
+import argparse
 import logging
 
 from ome_model.experimental import Image, create_companion
 import os
-from os.path import basename, join, dirname, abspath
+from os.path import join, dirname
 import subprocess
-import sys
 
 BASE_DIRECTORY = "/uod/idr/filesets/idr0065-camsund-crispri/"
 TIMESTAMPS_FILE = join(BASE_DIRECTORY, "20190823-ftp", "acq_time.txt")
 MAPPINGS_FILE = join(BASE_DIRECTORY, "20190823-ftp", "fluor_phase_link.txt")
-EXPERIMENTA_DIRECTORY = join(
-    dirname(abspath(dirname(sys.argv[0]))), 'experimentA', 'companions')
-EXPERIMENTB_DIRECTORY = join(
-    dirname(abspath(dirname(sys.argv[0]))), 'experimentB', 'companion')
-
-DEBUG = int(os.environ.get("DEBUG", logging.INFO))
-logger = logging.basicConfig(level=DEBUG)
+EXPERIMENTA_DIRECTORY = "/uod/idr/metadata/idr0065-camsund-crispri/experimentA"
+EXPERIMENTB_DIRECTORY = "/uod/idr/metadata/idr0065-camsund-crispri/experimentB"
 
 
 def read_phenotypic_time_indexes():
@@ -60,13 +55,17 @@ def parse_phenotypic_filenames(timestamps):
     """Parse filenames of timelapse phenotypic data"""
 
     files = {}
+    slides = {}
     for filename in timestamps:
         slide = filename.split('/')[0]
         position = filename.split('/')[2]
         files.setdefault(slide, {})
+        slides.setdefault(slide, set())
         files[slide].setdefault(position, [])
         files[slide][position].append(filename)
+        slides[slide].add(position)
 
+    # Validation
     for slide in files:
         assert len(files[slide]) == 90  # 90 positions per slide
         for x in range(101, 146):
@@ -80,7 +79,7 @@ def parse_phenotypic_filenames(timestamps):
             for t in range(241):
                 filename = get_phenotypic_filename(p, "fluor", t, slide=slide)
                 assert filename in files[slide][p]
-    return files
+    return slides
 
 
 def get_phenotypic_filename(p, c, t, slide=None):
@@ -89,6 +88,10 @@ def get_phenotypic_filename(p, c, t, slide=None):
         return "%s/pheno/%s" % (slide, name)
     else:
         return name
+
+
+def get_genotypic_filename(p, c, t):
+    return "%s/%s/%02g.tiff" % (p, c, t)
 
 
 def write_companion(images, file_path):
@@ -110,13 +113,18 @@ def write_companion(images, file_path):
 def create_phenotypic_companions():
     """Phenotypic metadata files"""
 
+    logging.info("Generating phenotypic metadata files")
     time_indexes = read_phenotypic_time_indexes()
     timestamps = read_phenotypic_timestamps()
-    files = parse_phenotypic_filenames(timestamps)
-    for slide in files:
+    slides = parse_phenotypic_filenames(timestamps)
+    filePaths = []
+
+    for slide in slides:
         images = []
+        logging.debug("Processing phenotypic %s" % slide)
         # Genotypic metadata generation
-        for position in files[slide].keys():
+        for position in sorted(slides[slide]):
+            logging.debug("  Creating image for %s" % position)
             image = Image(
                 position, 2048, 879, 1, 2, 481, order="XYZCT", type="uint16")
             image.add_channel("Phase", -1)
@@ -162,59 +170,88 @@ def create_phenotypic_companions():
                 image.add_plane(c=1, z=0, t=t, options=plane_options)
             images.append(image)
 
-        if len(images) == 0:
-            continue
         companion_file = join(
-            EXPERIMENTA_DIRECTORY, slide, "pheno", slide + '.companion.ome')
+            EXPERIMENTA_DIRECTORY, 'companions', slide, "pheno",
+            slide + '.companion.ome')
         write_companion(images, companion_file)
 
+        filePaths.append(
+            "Project:name:idr0065-camsund-crispri/experimentA/"
+            "Dataset:name:%s\t"
+            "%s\t%s\n" % (slide, companion_file, slide))
 
-def create_genotypic_companions(directory):
+    tsv = join(EXPERIMENTA_DIRECTORY, 'idr0065-experimentA-filePaths.tsv')
+    with open(tsv, 'w') as f:
+        for p in filePaths:
+            f.write(p)
+    return slides
+
+
+def create_genotypic_companions(slides):
     GENO_CYCLES = 11
 
-    # Genotypic metadata generation
-    geno_directory = join(directory, 'geno')
-    geno_folders = [
-        join(geno_directory, x) for x in os.listdir(geno_directory)]
-    geno_folders = sorted(filter(os.path.isdir, geno_folders))
-    logging.info(
-        "Found %g folders under %s" % (len(geno_folders), geno_directory))
-
-    for folder in geno_folders:
+    logging.info("Generating genotypic metadata files")
+    filePaths = []
+    for slide in slides:
         for i in range(GENO_CYCLES):
-            image = Image(
-                basename(folder), 2048, 879, 1, 5, 1,
-                order="XYZCT", type="uint16")
+            images = []
+            index = i + 1
+            logging.debug("Processing %s" % slide)
+            # Genotypic metadata generation
+            for position in sorted(slides[slide]):
+                logging.debug("  Creating image for %s" % position)
+                image = Image(
+                    position, 2048, 879, 1, 5, 1,
+                    order="XYZCT", type="uint16")
 
-            image.add_channel("Cy5", -16776961)
-            image.add_channel("Cy3", 16711935)
-            image.add_channel("TxR", 65535)
-            image.add_channel("Fam", -65281)
-            image.add_channel("Phase", -1)
+                image.add_channel("Cy5", -16776961)
+                image.add_channel("Cy3", 16711935)
+                image.add_channel("TxR", 65535)
+                image.add_channel("Fam", -65281)
+                image.add_channel("Phase", -1)
 
-            index = str(i + 1).zfill(2)
-
-            image.add_tiff(
-                "%s/1_cy5_fluor/%s.tiff" % (basename(folder), index),
-                c=0, z=0, t=0)
-            image.add_tiff(
-                "%s/2_cy3_fluor/%s.tiff" % (basename(folder), index),
-                c=1, z=0, t=0)
-            image.add_tiff(
-                "%s/3_TxR_fluor/%s.tiff" % (basename(folder), index),
-                c=2, z=0, t=0)
-            image.add_tiff(
-                "%s/4_fam_flour/%s.tiff" % (basename(folder), index),
-                c=3, z=0, t=0)
-            image.add_tiff(
-                "%s/phase/%s.tiff" % (basename(folder), index),
-                c=4, z=0, t=0)
+                image.add_tiff(
+                    get_genotypic_filename(position, "1_cy5_fluor", index),
+                    c=0, z=0, t=0)
+                image.add_tiff(
+                    get_genotypic_filename(position, "2_cy3_fluor", index),
+                    c=1, z=0, t=0)
+                image.add_tiff(
+                    get_genotypic_filename(position, "3_TxR_fluor", index),
+                    c=2, z=0, t=0)
+                image.add_tiff(
+                    get_genotypic_filename(position, "4_fam_flour", index),
+                    c=3, z=0, t=0)
+                image.add_tiff(
+                    get_genotypic_filename(position, "phase", index),
+                    c=4, z=0, t=0)
+                images.append(image)
 
             companion_file = join(
-                geno_directory, basename(folder) + '_round' + index +
-                '.companion.ome')
-            write_companion(image, companion_file)
+                EXPERIMENTB_DIRECTORY, 'companions', slide, "geno",
+                slide + '_cycle' + '%02g' % index + '.companion.ome')
+            write_companion(images, companion_file)
+
+            filePaths.append(
+                "Project:name:idr0065-camsund-crispri/experimentB/"
+                "Dataset:name:%s-cycle%02g\t"
+                "%s\t%s\n" % (slide, index, companion_file, slide))
+
+    tsv = join(EXPERIMENTB_DIRECTORY, 'idr0065-experimentB-filePaths.tsv')
+    with open(tsv, 'w') as f:
+        for p in filePaths:
+            f.write(p)
 
 
 if __name__ == "__main__":
-    create_phenotypic_companions()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-v', '--verbose', action='count', default=0)
+    args = parser.parse_args()
+
+    levels = [logging.WARNING, logging.INFO, logging.DEBUG]
+    level = levels[min(len(levels)-1, args.verbose)]
+    logger = logging.basicConfig(
+        level=level, format="%(asctime)s %(levelname)s %(message)s")
+
+    slides = create_phenotypic_companions()
+    create_genotypic_companions(slides)
