@@ -1,0 +1,2163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:3b6d0319-7987-4797-a758-914ef406e5c7" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:7020" Name="Pos101">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7020:7020" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31590" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31591" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31592" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31593" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31594" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/1_cy5_fluor/11.tiff">urn:uuid:a0264e1a-5fda-4d4f-9ba8-3b9bf2b1c716</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/2_cy3_fluor/11.tiff">urn:uuid:ad3227ab-a4be-46b5-b9fc-3e174712fa32</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/3_TxR_fluor/11.tiff">urn:uuid:aa16098c-40e0-49e3-afdc-80c41e30110c</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/4_fam_flour/11.tiff">urn:uuid:58bb1d09-deaa-4b66-a3b2-0f3635abb88d</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos101/phase/11.tiff">urn:uuid:515be088-41d0-4f85-957c-41683c79d179</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7021" Name="Pos102">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7021:7021" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31595" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31596" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31597" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31598" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31599" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos102/1_cy5_fluor/11.tiff">urn:uuid:44a7a5f1-9404-4d56-9373-6cc617e05f24</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos102/2_cy3_fluor/11.tiff">urn:uuid:fc186616-5a2a-43e7-8574-4a7c14ecf6a5</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos102/3_TxR_fluor/11.tiff">urn:uuid:83eb1a74-8785-4315-9787-d88ec5ce6f5b</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos102/4_fam_flour/11.tiff">urn:uuid:dc2e195d-bf2f-4a64-96a5-e0cb4e7e0231</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos102/phase/11.tiff">urn:uuid:1ec6c8c6-09bf-4cf4-9373-8fc2d07b2311</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7022" Name="Pos103">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7022:7022" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31600" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31601" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31602" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31603" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31604" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos103/1_cy5_fluor/11.tiff">urn:uuid:9e9ec044-e6cf-44bc-b1a3-fd7a13fd9566</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos103/2_cy3_fluor/11.tiff">urn:uuid:f3185765-c023-4c9f-ae63-c4f752439be6</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos103/3_TxR_fluor/11.tiff">urn:uuid:990c8c76-5bab-490f-9b3e-1251addbbfef</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos103/4_fam_flour/11.tiff">urn:uuid:c56c1e61-1b04-497c-9573-a49301e1e8da</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos103/phase/11.tiff">urn:uuid:09a9df21-070b-4507-8c18-40df9608dd49</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7023" Name="Pos104">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7023:7023" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31605" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31606" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31607" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31608" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31609" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos104/1_cy5_fluor/11.tiff">urn:uuid:13020c4a-64b0-4076-84cc-6584f69cd071</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos104/2_cy3_fluor/11.tiff">urn:uuid:6e4b6b1e-5513-4b32-8f46-391638d32c4a</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos104/3_TxR_fluor/11.tiff">urn:uuid:44bc47b0-6306-4d9a-8a35-213fc3a24ef6</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos104/4_fam_flour/11.tiff">urn:uuid:9ce212d7-27c0-43f7-8fcf-ff6b6cbc84b9</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos104/phase/11.tiff">urn:uuid:6a46d672-555a-4761-b345-5e876e31da4d</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7024" Name="Pos105">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7024:7024" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31610" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31611" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31612" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31613" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31614" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos105/1_cy5_fluor/11.tiff">urn:uuid:a0c436d3-80a5-4819-be05-2851e578a242</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos105/2_cy3_fluor/11.tiff">urn:uuid:e7d02234-69fa-49a9-b593-d32b38924162</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos105/3_TxR_fluor/11.tiff">urn:uuid:c47ad8a3-1cfc-4fba-b475-a78cccf7d677</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos105/4_fam_flour/11.tiff">urn:uuid:ce09a714-3856-4965-b4f7-2eeeb2868d04</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos105/phase/11.tiff">urn:uuid:e29d3e80-f6d9-47f7-85ad-0df67ed15d6e</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7025" Name="Pos106">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7025:7025" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31615" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31616" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31617" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31618" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31619" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos106/1_cy5_fluor/11.tiff">urn:uuid:4519f33f-ab4c-4f51-8e6b-45cf00bbdc2b</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos106/2_cy3_fluor/11.tiff">urn:uuid:983b3347-063f-4a72-9001-2ecc12eade04</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos106/3_TxR_fluor/11.tiff">urn:uuid:70cf2733-8598-4f13-bbae-9193e52c08ea</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos106/4_fam_flour/11.tiff">urn:uuid:89ba66f1-d64b-45b3-a6c1-8a10414293ca</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos106/phase/11.tiff">urn:uuid:6bf3a46e-c99b-46c1-b5cd-db66c34bbeb3</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7026" Name="Pos107">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7026:7026" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31620" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31621" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31622" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31623" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31624" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos107/1_cy5_fluor/11.tiff">urn:uuid:72b36613-ba8e-41ec-8bc4-76af0767893f</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos107/2_cy3_fluor/11.tiff">urn:uuid:f94a9f39-9a52-486c-971a-51ad94777018</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos107/3_TxR_fluor/11.tiff">urn:uuid:fae9afc3-c705-4674-99cc-0d37c2de94a9</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos107/4_fam_flour/11.tiff">urn:uuid:0adfc436-034e-46e8-a249-f5a9944cd0c7</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos107/phase/11.tiff">urn:uuid:5637d19e-fcb0-48a2-a1a7-d3b21109c4ff</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7027" Name="Pos108">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7027:7027" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31625" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31626" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31627" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31628" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31629" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos108/1_cy5_fluor/11.tiff">urn:uuid:dfe8b9b0-7216-46c6-8a76-95a20fa549b2</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos108/2_cy3_fluor/11.tiff">urn:uuid:7e461381-5a2f-4c0a-858e-ff91f6a1dcd8</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos108/3_TxR_fluor/11.tiff">urn:uuid:ed5b34fa-15f6-40b3-8904-c83db5014aa4</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos108/4_fam_flour/11.tiff">urn:uuid:744cc669-216a-46a1-92c8-10cd14c49558</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos108/phase/11.tiff">urn:uuid:fd4dc6bb-777e-48c2-a482-d2b205ea98d9</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7028" Name="Pos109">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7028:7028" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31630" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31631" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31632" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31633" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31634" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos109/1_cy5_fluor/11.tiff">urn:uuid:6e946ddc-b242-4e9c-ab66-30372415279d</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos109/2_cy3_fluor/11.tiff">urn:uuid:5cdcf08b-952d-460d-b8ff-449f25f6e70d</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos109/3_TxR_fluor/11.tiff">urn:uuid:d04ff8d5-1425-4b51-b1a6-7b35ca4f1f3d</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos109/4_fam_flour/11.tiff">urn:uuid:5d0f1944-fcdf-4c63-8aa3-edecacb54a6d</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos109/phase/11.tiff">urn:uuid:32451517-0e80-46d7-9dbc-2871eea1942b</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7029" Name="Pos110">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7029:7029" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31635" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31636" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31637" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31638" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31639" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos110/1_cy5_fluor/11.tiff">urn:uuid:aadf95eb-3e02-4bb9-b225-1aa49d905df4</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos110/2_cy3_fluor/11.tiff">urn:uuid:72ef7850-8cc8-4cb0-a6af-857ea0c9287a</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos110/3_TxR_fluor/11.tiff">urn:uuid:7f21bd26-bf62-4542-9f4a-46f614127a92</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos110/4_fam_flour/11.tiff">urn:uuid:40a509af-5edb-4bf7-8323-932baf73c04b</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos110/phase/11.tiff">urn:uuid:bfbb26e2-df90-48c4-b8d6-00af07cb3a1d</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7030" Name="Pos111">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7030:7030" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31640" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31641" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31642" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31643" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31644" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos111/1_cy5_fluor/11.tiff">urn:uuid:15cf1d4f-a054-4d8e-a08e-32229f3ba84f</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos111/2_cy3_fluor/11.tiff">urn:uuid:c970412d-cf0b-41b9-aa62-0635315060c1</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos111/3_TxR_fluor/11.tiff">urn:uuid:1a00adc9-0f74-4e40-a85d-8a8d50f16305</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos111/4_fam_flour/11.tiff">urn:uuid:045b04a8-8431-4abb-8d3f-0eff02f6455a</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos111/phase/11.tiff">urn:uuid:0b5f1042-4ced-4336-83a2-8b5b40620482</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7031" Name="Pos112">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7031:7031" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31645" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31646" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31647" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31648" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31649" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos112/1_cy5_fluor/11.tiff">urn:uuid:a0c9d72d-dfdd-462e-bc93-b6bd8fade1bd</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos112/2_cy3_fluor/11.tiff">urn:uuid:8ce48148-a15f-43d9-a3ae-9bcaa56667ba</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos112/3_TxR_fluor/11.tiff">urn:uuid:8de38d43-7714-47ef-b352-619013f7aa97</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos112/4_fam_flour/11.tiff">urn:uuid:73352ca2-4760-4c7c-9e76-79b7105daf32</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos112/phase/11.tiff">urn:uuid:a16726f2-1aff-4d57-8f99-9bb37a84b7f8</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7032" Name="Pos113">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7032:7032" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31650" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31651" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31652" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31653" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31654" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos113/1_cy5_fluor/11.tiff">urn:uuid:1c4c2e2a-3e74-4e4f-997a-385b0f931469</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos113/2_cy3_fluor/11.tiff">urn:uuid:5b64d738-fd9c-434c-9d53-5f1192676d47</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos113/3_TxR_fluor/11.tiff">urn:uuid:477f8e5b-a3b7-451f-b5e5-f6519901659d</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos113/4_fam_flour/11.tiff">urn:uuid:cbc17bd3-3b70-4b86-8487-e1a46d293b7d</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos113/phase/11.tiff">urn:uuid:5a5b464d-96dc-4911-a911-3a4c3f33f212</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7033" Name="Pos114">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7033:7033" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31655" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31656" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31657" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31658" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31659" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos114/1_cy5_fluor/11.tiff">urn:uuid:f3d4e826-0b37-4c6c-b4bc-a3e2e96ba85f</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos114/2_cy3_fluor/11.tiff">urn:uuid:dc7b724c-fc13-4f7c-abbe-d6e38a58739a</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos114/3_TxR_fluor/11.tiff">urn:uuid:5ab4f95d-a0f7-44e9-8146-85beaefc28e6</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos114/4_fam_flour/11.tiff">urn:uuid:284baea3-34b9-401a-8a0a-1747aee34070</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos114/phase/11.tiff">urn:uuid:764309a7-4f6a-4f9f-8d0e-e239a7969971</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7034" Name="Pos115">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7034:7034" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31660" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31661" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31662" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31663" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31664" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos115/1_cy5_fluor/11.tiff">urn:uuid:47ec98bb-41e8-43ad-9d59-59f013dc6daf</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos115/2_cy3_fluor/11.tiff">urn:uuid:f6034808-31b6-4389-9509-a50bc11b0b05</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos115/3_TxR_fluor/11.tiff">urn:uuid:8568937e-6ce9-4e4f-b358-44e5afba4f4f</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos115/4_fam_flour/11.tiff">urn:uuid:1774b614-570c-4640-b12e-4d7a4f8cb526</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos115/phase/11.tiff">urn:uuid:84a262d9-8b9a-4682-94ab-a4b2d6a0d800</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7035" Name="Pos116">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7035:7035" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31665" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31666" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31667" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31668" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31669" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos116/1_cy5_fluor/11.tiff">urn:uuid:1eb133ce-8c19-4aed-80e9-800ed7da4e97</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos116/2_cy3_fluor/11.tiff">urn:uuid:ec62f460-6ebf-4aaf-80b4-29e8aadbd45b</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos116/3_TxR_fluor/11.tiff">urn:uuid:c6eda232-b5a8-4740-85e3-05c10b9ea7b9</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos116/4_fam_flour/11.tiff">urn:uuid:cba248d1-99fa-4ff2-9ffc-c7454123a8d4</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos116/phase/11.tiff">urn:uuid:46f3ae9a-38a8-4298-a954-743389262392</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7036" Name="Pos117">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7036:7036" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31670" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31671" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31672" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31673" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31674" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos117/1_cy5_fluor/11.tiff">urn:uuid:c7c2e0d0-e5ad-4e9a-8a56-e8d52cdc4bbe</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos117/2_cy3_fluor/11.tiff">urn:uuid:a4004029-65a0-4042-83c2-1b034464aa38</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos117/3_TxR_fluor/11.tiff">urn:uuid:69187233-ab31-4c2e-9de5-764c9fa98e83</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos117/4_fam_flour/11.tiff">urn:uuid:ef8ff5c0-2537-4424-b0e9-322cc4b11e85</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos117/phase/11.tiff">urn:uuid:0e37d3e2-5471-4ae1-be52-dd6848ad3f74</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7037" Name="Pos118">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7037:7037" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31675" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31676" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31677" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31678" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31679" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos118/1_cy5_fluor/11.tiff">urn:uuid:219c880a-de95-4132-9988-8d5e8393c352</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos118/2_cy3_fluor/11.tiff">urn:uuid:eec21db5-a373-4b75-9113-6eb554807d04</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos118/3_TxR_fluor/11.tiff">urn:uuid:c310fe99-c756-4019-ad96-4eb0264b4fbf</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos118/4_fam_flour/11.tiff">urn:uuid:96f0fa41-a4e4-45aa-9adf-d6d4ae8bb43b</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos118/phase/11.tiff">urn:uuid:4ac867d0-db07-4e5f-9140-e89b33629e36</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7038" Name="Pos119">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7038:7038" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31680" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31681" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31682" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31683" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31684" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos119/1_cy5_fluor/11.tiff">urn:uuid:a3234d04-60fc-45b9-a7fd-1f0474e71be2</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos119/2_cy3_fluor/11.tiff">urn:uuid:3b42b8a4-0f6a-4820-993b-7242d5d3429c</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos119/3_TxR_fluor/11.tiff">urn:uuid:338799b2-707b-4deb-9833-b95f00f02030</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos119/4_fam_flour/11.tiff">urn:uuid:4534b641-3eb9-4421-98ae-2198c398f935</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos119/phase/11.tiff">urn:uuid:af307d61-3c6b-495e-a73b-d6143d7a03e4</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7039" Name="Pos120">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7039:7039" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31685" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31686" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31687" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31688" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31689" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos120/1_cy5_fluor/11.tiff">urn:uuid:0ad7a44e-dbac-4d39-aa46-a56f13ff3904</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos120/2_cy3_fluor/11.tiff">urn:uuid:0c508850-26ba-4e8a-ad01-6e44a4968963</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos120/3_TxR_fluor/11.tiff">urn:uuid:b0e961a9-7ed8-496d-8f45-40b27599acf4</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos120/4_fam_flour/11.tiff">urn:uuid:a4961f20-cb16-45fb-be51-c0c47d077353</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos120/phase/11.tiff">urn:uuid:286bf29c-3e79-4877-8cff-7be725354210</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7040" Name="Pos121">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7040:7040" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31690" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31691" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31692" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31693" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31694" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos121/1_cy5_fluor/11.tiff">urn:uuid:6fa5124a-74a2-418e-b90d-56ae4b7f5199</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos121/2_cy3_fluor/11.tiff">urn:uuid:6bcba956-1e82-4c18-8a15-d5e09a5df9c1</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos121/3_TxR_fluor/11.tiff">urn:uuid:9e158b1d-65af-423a-8e8f-ac22edced161</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos121/4_fam_flour/11.tiff">urn:uuid:d7067fa9-0a83-4347-aecb-123afb17ecf6</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos121/phase/11.tiff">urn:uuid:66abd37d-f935-44b1-a77c-82d87bc5d407</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7041" Name="Pos122">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7041:7041" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31695" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31696" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31697" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31698" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31699" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos122/1_cy5_fluor/11.tiff">urn:uuid:6237cfce-b17d-405b-a962-e5ecda1a5b03</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos122/2_cy3_fluor/11.tiff">urn:uuid:a92714bd-c83c-4258-ac2c-a6623a54b154</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos122/3_TxR_fluor/11.tiff">urn:uuid:cddbfdb7-ae8f-4147-8911-393e04277aec</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos122/4_fam_flour/11.tiff">urn:uuid:fc033853-0c15-4b4f-ab92-1c78c276b001</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos122/phase/11.tiff">urn:uuid:a682b51d-34e5-4266-ac73-b7d56fad7999</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7042" Name="Pos123">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7042:7042" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31700" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31701" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31702" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31703" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31704" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos123/1_cy5_fluor/11.tiff">urn:uuid:152bbb8f-b803-4c78-81dd-6dd2f20afe8f</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos123/2_cy3_fluor/11.tiff">urn:uuid:06d72d21-3dd3-4bed-81f5-a2cd5ad2b8c7</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos123/3_TxR_fluor/11.tiff">urn:uuid:09a3c557-eabe-4aca-bc46-660339ff5dcd</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos123/4_fam_flour/11.tiff">urn:uuid:f68d00aa-9a49-477b-921c-a8765306f8cf</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos123/phase/11.tiff">urn:uuid:1e230157-e523-4329-a87c-460d4d2add56</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7043" Name="Pos124">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7043:7043" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31705" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31706" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31707" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31708" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31709" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos124/1_cy5_fluor/11.tiff">urn:uuid:c0f150f1-13c1-427a-9f86-d717a652e2c0</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos124/2_cy3_fluor/11.tiff">urn:uuid:207df7e1-156d-4365-827a-e4907c1dd51c</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos124/3_TxR_fluor/11.tiff">urn:uuid:b6fbc4a0-3a46-4960-9fff-4607021c4db0</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos124/4_fam_flour/11.tiff">urn:uuid:36d6aa5e-ea81-4eb0-a149-252f790e6311</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos124/phase/11.tiff">urn:uuid:0eb81d59-6101-4292-bf70-69c88442f08c</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7044" Name="Pos125">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7044:7044" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31710" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31711" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31712" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31713" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31714" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos125/1_cy5_fluor/11.tiff">urn:uuid:7018c754-9fbd-4415-b3ca-966e1dec7cfe</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos125/2_cy3_fluor/11.tiff">urn:uuid:a772a170-80ad-4146-9ae2-986249b41087</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos125/3_TxR_fluor/11.tiff">urn:uuid:c9acc1a3-25bb-4bf5-adf3-ba667874e1a2</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos125/4_fam_flour/11.tiff">urn:uuid:af8e6ed8-38e1-48ae-8eb0-cec8664c6384</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos125/phase/11.tiff">urn:uuid:9e21719c-4df3-4dd7-9749-61867a266ab7</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7045" Name="Pos126">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7045:7045" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31715" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31716" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31717" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31718" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31719" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos126/1_cy5_fluor/11.tiff">urn:uuid:b0536fd1-dd86-4453-b0e2-c06dc8488dfc</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos126/2_cy3_fluor/11.tiff">urn:uuid:e32a5bcb-2dac-4744-840a-e8afd42220ec</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos126/3_TxR_fluor/11.tiff">urn:uuid:e824982c-9ba6-44eb-85f5-5a8e25bfa533</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos126/4_fam_flour/11.tiff">urn:uuid:43e3b98a-4b43-4248-9de2-2d3d32f12751</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos126/phase/11.tiff">urn:uuid:2bbbf18e-595b-4a2f-aad2-2cb0830c07ff</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7046" Name="Pos127">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7046:7046" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31720" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31721" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31722" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31723" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31724" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos127/1_cy5_fluor/11.tiff">urn:uuid:cdcbbd15-e1ca-43d5-a389-f70f95855663</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos127/2_cy3_fluor/11.tiff">urn:uuid:97ac22d2-7c54-41a8-99ff-feefa8919bbb</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos127/3_TxR_fluor/11.tiff">urn:uuid:c0844a99-98c7-433c-83e2-8578d016b951</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos127/4_fam_flour/11.tiff">urn:uuid:17311c1e-ba72-43fe-a751-59f002b23e0a</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos127/phase/11.tiff">urn:uuid:cf886d83-85a2-40e7-9b0d-51023cf0efc9</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7047" Name="Pos128">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7047:7047" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31725" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31726" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31727" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31728" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31729" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos128/1_cy5_fluor/11.tiff">urn:uuid:30e16eae-951a-4204-8aa4-6ae80c0ccad9</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos128/2_cy3_fluor/11.tiff">urn:uuid:8ed081a0-3ca8-4cf0-8b44-bd8c13008491</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos128/3_TxR_fluor/11.tiff">urn:uuid:6b8417ad-4062-49f3-8054-1bd6b77cfadf</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos128/4_fam_flour/11.tiff">urn:uuid:af225e1b-abb8-40c9-ac95-c23327e8041d</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos128/phase/11.tiff">urn:uuid:50b1e69a-5eb0-4b7a-9c8b-3a8d49f7ea80</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7048" Name="Pos129">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7048:7048" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31730" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31731" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31732" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31733" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31734" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos129/1_cy5_fluor/11.tiff">urn:uuid:09f527f7-5035-46fc-91a7-8913ba07165c</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos129/2_cy3_fluor/11.tiff">urn:uuid:41de4cbb-a1a7-449a-9944-42f7af0fd893</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos129/3_TxR_fluor/11.tiff">urn:uuid:58a57963-5ee2-4d40-8fbb-2745192f693f</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos129/4_fam_flour/11.tiff">urn:uuid:3daac1e1-30e9-4a36-83db-b6f03e6af972</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos129/phase/11.tiff">urn:uuid:06997180-bbf0-4b63-929c-36cc64416a89</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7049" Name="Pos130">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7049:7049" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31735" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31736" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31737" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31738" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31739" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos130/1_cy5_fluor/11.tiff">urn:uuid:eff258c0-ddda-4732-8bfa-f0e225f6204f</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos130/2_cy3_fluor/11.tiff">urn:uuid:349a848c-66e8-4e81-b67c-1074a6d0f1f9</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos130/3_TxR_fluor/11.tiff">urn:uuid:b856e101-f973-4139-a83b-f8ec14ed32db</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos130/4_fam_flour/11.tiff">urn:uuid:9201957f-6855-4ee0-bab5-152702543e3e</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos130/phase/11.tiff">urn:uuid:aa5fe585-8d05-494e-b403-2099e9aff5b6</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7050" Name="Pos131">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7050:7050" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31740" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31741" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31742" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31743" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31744" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos131/1_cy5_fluor/11.tiff">urn:uuid:c3160553-701d-4fa0-95f1-e332b1c14154</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos131/2_cy3_fluor/11.tiff">urn:uuid:259b15dc-9489-4c1a-89f5-7a4b4f6b1735</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos131/3_TxR_fluor/11.tiff">urn:uuid:bca158a4-252d-493d-a739-b5b0f4f3f9b7</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos131/4_fam_flour/11.tiff">urn:uuid:4d0f9137-ec64-4fe0-a038-efda2cc42d56</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos131/phase/11.tiff">urn:uuid:d6b7d1f6-42b8-44da-815a-d40defda3922</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7051" Name="Pos132">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7051:7051" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31745" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31746" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31747" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31748" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31749" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos132/1_cy5_fluor/11.tiff">urn:uuid:70e5f22d-399c-410a-9166-25568a8f0480</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos132/2_cy3_fluor/11.tiff">urn:uuid:37a7bf7c-bdd7-4299-8390-673b9d6570df</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos132/3_TxR_fluor/11.tiff">urn:uuid:49c1619b-dd4b-439b-bd55-70bb0a147edb</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos132/4_fam_flour/11.tiff">urn:uuid:ccb88e2b-cfec-4b52-b6e5-7a5ee983208a</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos132/phase/11.tiff">urn:uuid:ba8991b6-f229-4725-af72-35a452a2746a</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7052" Name="Pos133">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7052:7052" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31750" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31751" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31752" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31753" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31754" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos133/1_cy5_fluor/11.tiff">urn:uuid:36e0050a-4ba8-4c3d-bff0-cf657853bdae</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos133/2_cy3_fluor/11.tiff">urn:uuid:b964b161-b7c3-427f-92b2-a4144119aa97</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos133/3_TxR_fluor/11.tiff">urn:uuid:881e6ecd-35e9-47be-a5bf-70f8c5adde25</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos133/4_fam_flour/11.tiff">urn:uuid:2ccbdc7c-7fc7-456a-8803-12724cc8db99</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos133/phase/11.tiff">urn:uuid:0d875138-c6d6-4de2-a885-82449d69e9e6</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7053" Name="Pos134">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7053:7053" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31755" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31756" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31757" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31758" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31759" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos134/1_cy5_fluor/11.tiff">urn:uuid:86935fa6-b852-4f47-84e5-c9cb9624b92a</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos134/2_cy3_fluor/11.tiff">urn:uuid:20630394-1138-4360-8db1-a2dce883e801</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos134/3_TxR_fluor/11.tiff">urn:uuid:89908f1e-897a-4924-bc53-c1d420478a59</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos134/4_fam_flour/11.tiff">urn:uuid:ed28286e-3e26-4102-a0d2-b1fa3f9bf53c</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos134/phase/11.tiff">urn:uuid:3c7965dc-805d-4252-87db-2792624fe891</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7054" Name="Pos135">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7054:7054" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31760" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31761" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31762" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31763" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31764" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos135/1_cy5_fluor/11.tiff">urn:uuid:d9a2895a-6deb-4ca2-bd1f-da7bcfad8f4d</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos135/2_cy3_fluor/11.tiff">urn:uuid:584b4ad9-aa3d-4d5a-99de-de09ecc8dbdf</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos135/3_TxR_fluor/11.tiff">urn:uuid:d413668e-d602-4e5a-a59d-c708d76ade0b</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos135/4_fam_flour/11.tiff">urn:uuid:ecbc67b4-f90b-49dc-a5e9-70fd3a927948</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos135/phase/11.tiff">urn:uuid:8080907c-c1c0-4467-a7fd-9dafcfafb454</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7055" Name="Pos136">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7055:7055" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31765" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31766" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31767" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31768" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31769" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos136/1_cy5_fluor/11.tiff">urn:uuid:d660d718-1798-457a-b3d7-7dc3d4401f6b</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos136/2_cy3_fluor/11.tiff">urn:uuid:ec584e3b-3dce-453d-81ee-2824dcfcb506</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos136/3_TxR_fluor/11.tiff">urn:uuid:e0544468-bcef-43d2-9efa-f8d85c65b6d8</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos136/4_fam_flour/11.tiff">urn:uuid:994ecf69-8a48-43fd-896f-bc911139a050</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos136/phase/11.tiff">urn:uuid:51eb7732-46c7-46bd-a0de-833c45a1c4b4</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7056" Name="Pos137">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7056:7056" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31770" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31771" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31772" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31773" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31774" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos137/1_cy5_fluor/11.tiff">urn:uuid:20d21d67-b6aa-4625-9be4-1dba9efefb75</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos137/2_cy3_fluor/11.tiff">urn:uuid:e0179a2e-d892-45c8-97e5-5b78bb3ed45e</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos137/3_TxR_fluor/11.tiff">urn:uuid:fdd80a49-be45-4f03-b0b9-422c1d2078a8</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos137/4_fam_flour/11.tiff">urn:uuid:76d067b5-8529-44fd-90ec-1d6b0b31349e</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos137/phase/11.tiff">urn:uuid:de125c25-1fea-4ec2-b443-d3bc5f1e8830</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7057" Name="Pos138">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7057:7057" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31775" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31776" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31777" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31778" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31779" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos138/1_cy5_fluor/11.tiff">urn:uuid:0344cbb1-19d5-4014-802e-a91fecb938a4</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos138/2_cy3_fluor/11.tiff">urn:uuid:b389261c-7887-4eca-8dcf-e121cbcdffa0</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos138/3_TxR_fluor/11.tiff">urn:uuid:1f61790d-3388-4de5-9450-a53e7a8e941c</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos138/4_fam_flour/11.tiff">urn:uuid:97f75e41-6fc0-4fd9-986e-1824331eb27e</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos138/phase/11.tiff">urn:uuid:cb185662-38fe-4369-8b27-f3dc0bff07e3</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7058" Name="Pos139">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7058:7058" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31780" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31781" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31782" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31783" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31784" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos139/1_cy5_fluor/11.tiff">urn:uuid:1ba77887-9992-46f5-a196-1ed9b07ea2dc</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos139/2_cy3_fluor/11.tiff">urn:uuid:14355938-2dac-4232-93ea-8d259962b029</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos139/3_TxR_fluor/11.tiff">urn:uuid:7487202b-a1f4-40c7-b9dc-271128be7ec3</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos139/4_fam_flour/11.tiff">urn:uuid:c00a8e15-f3a6-4131-93fc-2742fbc3fb04</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos139/phase/11.tiff">urn:uuid:9ce3df1f-5177-49ff-a445-cc5f1d186076</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7059" Name="Pos140">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7059:7059" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31785" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31786" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31787" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31788" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31789" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos140/1_cy5_fluor/11.tiff">urn:uuid:596ccbf5-1555-4ab1-8165-f1f6b7fb0181</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos140/2_cy3_fluor/11.tiff">urn:uuid:938f4399-e6da-40ec-b450-a9d2dcbfb95b</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos140/3_TxR_fluor/11.tiff">urn:uuid:c6e567b7-b54a-4d4c-be41-8ef06927fb5b</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos140/4_fam_flour/11.tiff">urn:uuid:c5efe288-1e2a-4f0f-b068-ee3d7e31eb80</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos140/phase/11.tiff">urn:uuid:31d41af7-c175-4bd3-9614-5cd655b22d25</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7060" Name="Pos141">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7060:7060" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31790" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31791" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31792" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31793" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31794" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos141/1_cy5_fluor/11.tiff">urn:uuid:d017c046-66d0-4474-ad8c-60895fd7cbd2</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos141/2_cy3_fluor/11.tiff">urn:uuid:817a742f-2c02-4919-a17d-3968e1ed1830</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos141/3_TxR_fluor/11.tiff">urn:uuid:a57ec5bd-657d-4b09-8ba7-1b04cc56b161</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos141/4_fam_flour/11.tiff">urn:uuid:2a42ced1-f503-4741-8ffb-0f565d05bbf8</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos141/phase/11.tiff">urn:uuid:e0d469e4-ba6e-474f-ab15-9b20d0670b40</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7061" Name="Pos142">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7061:7061" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31795" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31796" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31797" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31798" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31799" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos142/1_cy5_fluor/11.tiff">urn:uuid:1cafb66e-3df5-4cc9-8086-b51826782157</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos142/2_cy3_fluor/11.tiff">urn:uuid:efaecb39-5d57-466d-b93b-2d5b99da9501</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos142/3_TxR_fluor/11.tiff">urn:uuid:75db690d-f76d-4ed5-9843-66e8819f5382</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos142/4_fam_flour/11.tiff">urn:uuid:63cad7e3-d644-4ffe-bac0-c99220b7bc36</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos142/phase/11.tiff">urn:uuid:33ffaec9-e64a-4acc-bcf9-a2ebc47a7a32</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7062" Name="Pos143">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7062:7062" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31800" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31801" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31802" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31803" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31804" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos143/1_cy5_fluor/11.tiff">urn:uuid:b5cff4af-30b5-48f9-9957-3368dd1f4463</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos143/2_cy3_fluor/11.tiff">urn:uuid:43f70419-86a5-416d-b12c-f591a783571d</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos143/3_TxR_fluor/11.tiff">urn:uuid:fb121b2a-6071-4d68-9599-3b0a272a3811</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos143/4_fam_flour/11.tiff">urn:uuid:e394b397-8928-4da8-abd8-2b527f96565a</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos143/phase/11.tiff">urn:uuid:158c199b-dccf-4305-ac3d-85d0b76182d4</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7063" Name="Pos144">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7063:7063" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31805" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31806" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31807" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31808" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31809" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos144/1_cy5_fluor/11.tiff">urn:uuid:1220165e-63a6-42db-9ba5-b79d3d18772d</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos144/2_cy3_fluor/11.tiff">urn:uuid:a0c13a9e-5057-488c-8da8-08f560c65255</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos144/3_TxR_fluor/11.tiff">urn:uuid:0a97d35e-a27b-4c1b-a52f-4fe253d9da9e</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos144/4_fam_flour/11.tiff">urn:uuid:663a89a5-8340-4eab-9282-d75a838d4a34</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos144/phase/11.tiff">urn:uuid:c1bbd095-35d1-45c0-b84e-116d3d37b20d</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7064" Name="Pos145">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7064:7064" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31810" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31811" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31812" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31813" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31814" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos145/1_cy5_fluor/11.tiff">urn:uuid:10a97d4c-25fc-441d-96e0-36f648b03b83</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos145/2_cy3_fluor/11.tiff">urn:uuid:059d48da-24a3-4548-9621-d87061cc4afd</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos145/3_TxR_fluor/11.tiff">urn:uuid:f0bb6a91-7f76-4591-97ce-a3c6a69556f7</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos145/4_fam_flour/11.tiff">urn:uuid:75fe7b17-128a-47fa-b7d2-7f9eaf42be9c</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos145/phase/11.tiff">urn:uuid:f4453060-c086-48f5-9161-19b8334ebcd0</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7065" Name="Pos201">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7065:7065" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31815" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31816" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31817" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31818" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31819" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos201/1_cy5_fluor/11.tiff">urn:uuid:250a3f9f-728e-40c8-bbd4-d196903f9558</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos201/2_cy3_fluor/11.tiff">urn:uuid:004f4d87-5c44-42c1-90ae-99e54f628118</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos201/3_TxR_fluor/11.tiff">urn:uuid:a21781b4-6461-453c-ad9b-cee8b2e82c90</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos201/4_fam_flour/11.tiff">urn:uuid:d4213f35-6e6e-446e-b012-a02f3e781ca6</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos201/phase/11.tiff">urn:uuid:87c757ef-7098-4189-8d50-30d5067de9d5</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7066" Name="Pos202">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7066:7066" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31820" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31821" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31822" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31823" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31824" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos202/1_cy5_fluor/11.tiff">urn:uuid:e3f46ee5-4adb-4d3a-b2c1-87c26adfb4cd</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos202/2_cy3_fluor/11.tiff">urn:uuid:f834bd66-ce0f-4674-858c-a036248e257f</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos202/3_TxR_fluor/11.tiff">urn:uuid:b67e9894-91f3-459f-921b-ccece5ea4650</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos202/4_fam_flour/11.tiff">urn:uuid:9296def8-97bc-4e4a-a0d3-b63cfb6e1387</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos202/phase/11.tiff">urn:uuid:34edf3a5-6680-4147-a66b-0e5b0a29e24b</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7067" Name="Pos203">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7067:7067" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31825" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31826" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31827" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31828" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31829" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos203/1_cy5_fluor/11.tiff">urn:uuid:02c41087-9cca-4ee8-a996-14a346067e42</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos203/2_cy3_fluor/11.tiff">urn:uuid:289345f1-3256-41da-af06-a7730e765469</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos203/3_TxR_fluor/11.tiff">urn:uuid:1fb1cc9c-9359-46f8-b549-8ebbf6c82d2b</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos203/4_fam_flour/11.tiff">urn:uuid:ca7b6dff-5524-462e-96f2-550b241baeb0</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos203/phase/11.tiff">urn:uuid:389f0c0c-8eb3-417d-a060-f038d8c135cf</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7068" Name="Pos204">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7068:7068" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31830" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31831" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31832" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31833" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31834" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos204/1_cy5_fluor/11.tiff">urn:uuid:944bb947-98b2-4f57-95fb-8b6aaf165cb0</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos204/2_cy3_fluor/11.tiff">urn:uuid:720937c4-ca6f-4888-baab-d17de511bee2</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos204/3_TxR_fluor/11.tiff">urn:uuid:a2953b9f-e06a-42c9-a159-f1bf3e718959</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos204/4_fam_flour/11.tiff">urn:uuid:565e4ca5-629d-4de9-892a-784e5f8bd901</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos204/phase/11.tiff">urn:uuid:5877b226-37b4-407a-8162-c076dfee0666</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7069" Name="Pos205">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7069:7069" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31835" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31836" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31837" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31838" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31839" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos205/1_cy5_fluor/11.tiff">urn:uuid:5a41fd3b-15c4-4726-8460-25fcef98f29c</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos205/2_cy3_fluor/11.tiff">urn:uuid:3d9161fa-2809-41d5-9830-35075f98c6fc</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos205/3_TxR_fluor/11.tiff">urn:uuid:20872667-467d-4e96-8f85-f7fb5cde6b01</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos205/4_fam_flour/11.tiff">urn:uuid:78dd32fa-da33-4cc4-a562-e946a484a87e</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos205/phase/11.tiff">urn:uuid:6b9bc94c-9cc1-4c26-8250-26a66559c5d4</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7070" Name="Pos206">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7070:7070" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31840" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31841" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31842" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31843" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31844" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos206/1_cy5_fluor/11.tiff">urn:uuid:5d482945-9a0c-4a22-a20c-daca1e6e14d2</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos206/2_cy3_fluor/11.tiff">urn:uuid:6755f0c0-6092-4e8b-ba10-14daf5662897</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos206/3_TxR_fluor/11.tiff">urn:uuid:7110cba8-b881-49ce-8b9b-0ffbadb4e2f5</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos206/4_fam_flour/11.tiff">urn:uuid:4e57a104-20df-459f-b36a-1e20ac5bf064</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos206/phase/11.tiff">urn:uuid:82b6391f-b2be-4554-8e1c-f02208dd1286</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7071" Name="Pos207">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7071:7071" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31845" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31846" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31847" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31848" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31849" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos207/1_cy5_fluor/11.tiff">urn:uuid:dcce976c-f94b-4513-bbdd-e5846bd54e2a</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos207/2_cy3_fluor/11.tiff">urn:uuid:9102adec-9890-45e4-8d6e-8d04de882bb5</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos207/3_TxR_fluor/11.tiff">urn:uuid:21512ed4-964b-4831-8cef-0d39d4b87b02</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos207/4_fam_flour/11.tiff">urn:uuid:ceee0b57-a03c-4075-a4e3-c3670ebe8822</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos207/phase/11.tiff">urn:uuid:b47329e8-0ac7-4cc0-bc92-109b320b3317</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7072" Name="Pos208">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7072:7072" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31850" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31851" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31852" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31853" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31854" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos208/1_cy5_fluor/11.tiff">urn:uuid:11af5814-2353-426e-b1ab-fee7f58f4909</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos208/2_cy3_fluor/11.tiff">urn:uuid:0e74bcd1-f60f-4ffb-84de-441ff05a5225</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos208/3_TxR_fluor/11.tiff">urn:uuid:ed5b5c87-0b85-437e-8f05-634e0773cf51</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos208/4_fam_flour/11.tiff">urn:uuid:c46d7d91-1646-4a32-9843-8d89c139e727</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos208/phase/11.tiff">urn:uuid:79f48f32-1e66-4826-808d-64f2e16b0496</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7073" Name="Pos209">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7073:7073" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31855" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31856" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31857" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31858" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31859" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos209/1_cy5_fluor/11.tiff">urn:uuid:ea943c6b-d3c4-4f61-acc4-24424083178b</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos209/2_cy3_fluor/11.tiff">urn:uuid:cf32ad21-ac37-467b-b370-3c7f7cb2f082</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos209/3_TxR_fluor/11.tiff">urn:uuid:7fdc80f9-801a-4535-a9e6-f1b02dccbe8f</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos209/4_fam_flour/11.tiff">urn:uuid:094efd9c-adf1-4fd6-aded-afea204cfd7a</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos209/phase/11.tiff">urn:uuid:216309f7-c004-4f4d-aac0-a002ebab1359</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7074" Name="Pos210">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7074:7074" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31860" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31861" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31862" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31863" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31864" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos210/1_cy5_fluor/11.tiff">urn:uuid:ecfdddf0-650f-4fe2-b127-2cfadd5a7ddb</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos210/2_cy3_fluor/11.tiff">urn:uuid:aa0a62bf-0f9d-45cd-80d3-d30b0fc1c8b0</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos210/3_TxR_fluor/11.tiff">urn:uuid:12b8df1e-765f-44f7-aebf-c34e452dfd49</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos210/4_fam_flour/11.tiff">urn:uuid:74f23811-4121-4695-8340-8713ee97d70a</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos210/phase/11.tiff">urn:uuid:2b757e2c-4e37-4a82-8710-3f9155e400ee</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7075" Name="Pos211">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7075:7075" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31865" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31866" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31867" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31868" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31869" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos211/1_cy5_fluor/11.tiff">urn:uuid:35b0e464-fa76-4e6f-9cc8-8324bb811240</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos211/2_cy3_fluor/11.tiff">urn:uuid:d5d0a5a9-a8f1-4e51-b589-5beb63446b36</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos211/3_TxR_fluor/11.tiff">urn:uuid:3fc213c5-7faa-42ce-b10c-5dc4d7ad04b7</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos211/4_fam_flour/11.tiff">urn:uuid:0ba86aef-1b6b-4f27-bdc5-0a6d814604d0</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos211/phase/11.tiff">urn:uuid:45a71a50-7bb3-4d9c-b823-b20070866d2c</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7076" Name="Pos212">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7076:7076" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31870" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31871" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31872" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31873" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31874" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos212/1_cy5_fluor/11.tiff">urn:uuid:8c91beeb-e71a-4f73-b084-84b8eceee644</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos212/2_cy3_fluor/11.tiff">urn:uuid:559ed120-6b6f-4530-a0dc-4d2865deccf4</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos212/3_TxR_fluor/11.tiff">urn:uuid:9efa2a0e-dfcd-4410-b2c5-63013353a39d</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos212/4_fam_flour/11.tiff">urn:uuid:4ca339b5-5bc8-412e-9cec-105b256334ba</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos212/phase/11.tiff">urn:uuid:cc7b65de-0d3e-4de2-8331-7a947e6c55da</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7077" Name="Pos213">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7077:7077" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31875" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31876" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31877" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31878" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31879" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos213/1_cy5_fluor/11.tiff">urn:uuid:a8736a72-481d-4d4a-9364-af607db11340</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos213/2_cy3_fluor/11.tiff">urn:uuid:47258c62-4cd3-4598-a9f2-809b2b720668</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos213/3_TxR_fluor/11.tiff">urn:uuid:d7d13707-90b7-4e1f-a8b3-5cc10f2fdaf6</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos213/4_fam_flour/11.tiff">urn:uuid:9e5e144d-9eb3-4af9-81cd-a3817ae3c76f</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos213/phase/11.tiff">urn:uuid:cad9b111-ef3f-49a6-8271-702766fc74b9</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7078" Name="Pos214">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7078:7078" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31880" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31881" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31882" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31883" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31884" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos214/1_cy5_fluor/11.tiff">urn:uuid:a028f3cc-697f-4ac8-ab60-10fb714f2084</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos214/2_cy3_fluor/11.tiff">urn:uuid:18368640-3096-4cf0-8780-0e0eba97d84c</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos214/3_TxR_fluor/11.tiff">urn:uuid:916ce921-1ad4-4454-ac02-79c7f6b92cab</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos214/4_fam_flour/11.tiff">urn:uuid:00c8e8c7-f19c-4786-b2bc-37fe77c58704</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos214/phase/11.tiff">urn:uuid:5917fa34-f439-4440-a1c5-cb79b819fdab</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7079" Name="Pos215">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7079:7079" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31885" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31886" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31887" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31888" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31889" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos215/1_cy5_fluor/11.tiff">urn:uuid:9918aa20-0d55-4086-8aca-d1e5736ec4da</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos215/2_cy3_fluor/11.tiff">urn:uuid:beca8cef-fa8b-4bcf-b76d-c02dbc76f650</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos215/3_TxR_fluor/11.tiff">urn:uuid:ff36fee7-b533-40db-a501-16fae9681f0e</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos215/4_fam_flour/11.tiff">urn:uuid:0e6f0b51-2272-498b-9c51-59658f858835</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos215/phase/11.tiff">urn:uuid:fa1d27d1-a9bb-4508-9c64-d55948b4df42</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7080" Name="Pos216">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7080:7080" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31890" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31891" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31892" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31893" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31894" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos216/1_cy5_fluor/11.tiff">urn:uuid:f5885297-b01b-48c1-8956-f68750fd3011</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos216/2_cy3_fluor/11.tiff">urn:uuid:9a1ea52d-ae77-4d5d-b289-fd76fd15dc63</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos216/3_TxR_fluor/11.tiff">urn:uuid:8ed136e0-5c5c-4cc1-bc69-4560733e642a</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos216/4_fam_flour/11.tiff">urn:uuid:0b5ca1e8-bcb3-4190-bd39-8a153cb2f19d</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos216/phase/11.tiff">urn:uuid:d42c74d8-965f-4c7d-935d-8af64eacbff3</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7081" Name="Pos217">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7081:7081" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31895" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31896" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31897" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31898" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31899" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos217/1_cy5_fluor/11.tiff">urn:uuid:32d696a3-7245-48c8-aba7-9840b2749224</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos217/2_cy3_fluor/11.tiff">urn:uuid:183b824d-5b5e-4c47-999c-20ac3469d41b</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos217/3_TxR_fluor/11.tiff">urn:uuid:27b17401-c746-4264-a20e-924ad09731d7</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos217/4_fam_flour/11.tiff">urn:uuid:75562b1e-84a8-4557-a471-376066692edc</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos217/phase/11.tiff">urn:uuid:c2fb4326-3622-4efe-b089-5720113e84d5</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7082" Name="Pos218">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7082:7082" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31900" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31901" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31902" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31903" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31904" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos218/1_cy5_fluor/11.tiff">urn:uuid:401dc281-52dc-49c2-9e23-255626f19338</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos218/2_cy3_fluor/11.tiff">urn:uuid:39595925-c788-495f-a566-c3a3646f912f</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos218/3_TxR_fluor/11.tiff">urn:uuid:f5e014bf-6fc3-47a8-97b1-5e81fabc53f8</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos218/4_fam_flour/11.tiff">urn:uuid:45470d2e-56c2-44b3-a9a7-449baf46822c</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos218/phase/11.tiff">urn:uuid:56f85e38-9223-49b9-bf69-12e3989fc1d4</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7083" Name="Pos219">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7083:7083" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31905" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31906" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31907" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31908" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31909" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos219/1_cy5_fluor/11.tiff">urn:uuid:07673a17-68ed-4786-9cf2-3cd81ab38581</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos219/2_cy3_fluor/11.tiff">urn:uuid:63b6e064-c1ad-45dc-9aa9-9655a5bd21d1</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos219/3_TxR_fluor/11.tiff">urn:uuid:9ed70d73-3c2f-49be-bae3-82739d7db60f</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos219/4_fam_flour/11.tiff">urn:uuid:aec0c9b6-f258-4601-80fd-5434a1cab536</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos219/phase/11.tiff">urn:uuid:61e6260f-9a70-4952-9c63-dfb503be1fef</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7084" Name="Pos220">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7084:7084" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31910" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31911" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31912" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31913" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31914" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos220/1_cy5_fluor/11.tiff">urn:uuid:0533073d-8665-4646-a376-c82103d02620</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos220/2_cy3_fluor/11.tiff">urn:uuid:d199ce33-7252-4b74-b3c7-c3ed087bc426</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos220/3_TxR_fluor/11.tiff">urn:uuid:fcf7b622-cfa6-4c3f-9166-8d47ac6ec22b</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos220/4_fam_flour/11.tiff">urn:uuid:94f1baf4-0f35-4c3e-9211-e9b77f95aef1</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos220/phase/11.tiff">urn:uuid:591cb498-1488-4a94-aa32-5451201495d3</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7085" Name="Pos221">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7085:7085" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31915" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31916" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31917" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31918" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31919" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos221/1_cy5_fluor/11.tiff">urn:uuid:4056695e-d7cb-48f4-ba49-10daf30aaae0</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos221/2_cy3_fluor/11.tiff">urn:uuid:afd6ee36-1543-4574-8999-ae590dafefcc</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos221/3_TxR_fluor/11.tiff">urn:uuid:951699b2-9849-4c0e-8e60-51939e8a2394</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos221/4_fam_flour/11.tiff">urn:uuid:1a8a2aae-cd56-4390-98fd-de90b91c8c9e</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos221/phase/11.tiff">urn:uuid:cdadd8cd-0fc9-4bd9-b9e1-22ff7ecb4787</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7086" Name="Pos222">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7086:7086" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31920" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31921" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31922" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31923" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31924" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos222/1_cy5_fluor/11.tiff">urn:uuid:3d5df09d-30d5-4d93-8130-f92f91072c93</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos222/2_cy3_fluor/11.tiff">urn:uuid:ec666cca-54c0-4e5f-8583-1145ab945f1e</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos222/3_TxR_fluor/11.tiff">urn:uuid:7b0320ad-97ce-472b-93f0-eac303bb27db</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos222/4_fam_flour/11.tiff">urn:uuid:f1331f6c-d943-4057-9160-18831ef74e5d</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos222/phase/11.tiff">urn:uuid:85ccd362-6705-4e8a-9fad-1018efe6d13a</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7087" Name="Pos223">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7087:7087" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31925" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31926" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31927" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31928" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31929" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos223/1_cy5_fluor/11.tiff">urn:uuid:20eb11ab-5d02-4f22-a91f-326f3093fa8c</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos223/2_cy3_fluor/11.tiff">urn:uuid:0503b7b5-5865-45e4-aa01-d128a0c0b92e</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos223/3_TxR_fluor/11.tiff">urn:uuid:d56817c9-fa8d-4ed3-8ba8-0dcf6f5ac164</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos223/4_fam_flour/11.tiff">urn:uuid:55254b6d-5980-4d11-a963-a6ce38f37f9d</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos223/phase/11.tiff">urn:uuid:ad174d97-0d8f-437e-8343-13d16ac21fd3</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7088" Name="Pos224">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7088:7088" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31930" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31931" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31932" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31933" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31934" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos224/1_cy5_fluor/11.tiff">urn:uuid:8be13b84-f2e5-47d7-9444-1aa15267a74e</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos224/2_cy3_fluor/11.tiff">urn:uuid:f6494c0c-a37a-4673-94b6-2bbfc9c20e06</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos224/3_TxR_fluor/11.tiff">urn:uuid:13864784-8e33-4b7c-a331-956d209577c5</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos224/4_fam_flour/11.tiff">urn:uuid:9f61b6f6-5990-4797-a35d-e5c317075cf6</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos224/phase/11.tiff">urn:uuid:3383735f-2362-42ca-b2df-5cfaae815f74</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7089" Name="Pos225">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7089:7089" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31935" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31936" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31937" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31938" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31939" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos225/1_cy5_fluor/11.tiff">urn:uuid:5ecf9b5b-3695-4a09-88f9-d244e7d02089</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos225/2_cy3_fluor/11.tiff">urn:uuid:f7bb1ead-6a67-4811-afe2-f663fe6926cb</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos225/3_TxR_fluor/11.tiff">urn:uuid:946e5fc7-f375-4950-81ab-e1205ad271d1</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos225/4_fam_flour/11.tiff">urn:uuid:92308f98-6014-4c5b-b703-02037f9f3d2b</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos225/phase/11.tiff">urn:uuid:4e6b861c-9be4-4332-b5b0-5c92be0433a1</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7090" Name="Pos226">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7090:7090" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31940" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31941" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31942" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31943" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31944" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos226/1_cy5_fluor/11.tiff">urn:uuid:89d5a2bb-c9f3-40d0-a7dc-3bbc46101711</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos226/2_cy3_fluor/11.tiff">urn:uuid:cb3a9af8-ae2f-45ce-9e70-bd28a346a556</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos226/3_TxR_fluor/11.tiff">urn:uuid:065db495-660d-4c90-bd81-156a00e34ebd</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos226/4_fam_flour/11.tiff">urn:uuid:9248d712-a0f4-42a5-9b23-607e49c2ba7b</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos226/phase/11.tiff">urn:uuid:bd8fdb17-9c41-409a-b9a3-beeff304478a</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7091" Name="Pos227">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7091:7091" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31945" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31946" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31947" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31948" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31949" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos227/1_cy5_fluor/11.tiff">urn:uuid:f52e586e-cd0f-47e3-baf4-66327b2d28e6</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos227/2_cy3_fluor/11.tiff">urn:uuid:f6453186-2cba-4481-a80c-e283572e9a01</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos227/3_TxR_fluor/11.tiff">urn:uuid:d1d6bf39-b46c-4db4-91cc-f4f134715a00</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos227/4_fam_flour/11.tiff">urn:uuid:9f97dabe-ee4c-42f7-a7d1-826ae7610b80</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos227/phase/11.tiff">urn:uuid:0cfa11fa-6928-4bc9-b820-e54ea9ddf848</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7092" Name="Pos228">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7092:7092" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31950" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31951" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31952" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31953" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31954" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos228/1_cy5_fluor/11.tiff">urn:uuid:84662627-dde5-4bba-a61d-8f8291b97a23</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos228/2_cy3_fluor/11.tiff">urn:uuid:258c0d50-0e3c-4e9e-a7ca-3609d4788d2c</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos228/3_TxR_fluor/11.tiff">urn:uuid:e678b270-ff55-4242-aa09-89ecc1aacfc4</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos228/4_fam_flour/11.tiff">urn:uuid:ce1384ce-cb26-4227-8d55-5096d2fa5d2f</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos228/phase/11.tiff">urn:uuid:49d0d1df-9938-46fb-a1e9-fb75ff909b16</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7093" Name="Pos229">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7093:7093" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31955" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31956" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31957" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31958" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31959" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos229/1_cy5_fluor/11.tiff">urn:uuid:5e73edce-51f0-414b-b809-2c5a74f9512a</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos229/2_cy3_fluor/11.tiff">urn:uuid:2ebcb7f7-c065-41c5-9612-f5339e7573dd</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos229/3_TxR_fluor/11.tiff">urn:uuid:24397155-2494-4512-b63d-5f3b701a9ebe</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos229/4_fam_flour/11.tiff">urn:uuid:aed21024-080e-46dc-817e-3f601efedfc9</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos229/phase/11.tiff">urn:uuid:9688f451-6ea3-4c87-9250-e691e8f09cde</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7094" Name="Pos230">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7094:7094" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31960" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31961" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31962" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31963" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31964" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos230/1_cy5_fluor/11.tiff">urn:uuid:7827e347-0781-462b-ab2c-a6de67092585</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos230/2_cy3_fluor/11.tiff">urn:uuid:dae9506b-b83e-49c6-a966-5fb7585aaeaa</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos230/3_TxR_fluor/11.tiff">urn:uuid:c602908a-a244-412f-a411-d90b61bf26ea</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos230/4_fam_flour/11.tiff">urn:uuid:7f03735f-7210-4bd9-8458-aa3317e79644</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos230/phase/11.tiff">urn:uuid:b61432c3-049d-495f-b148-29e86c61e93f</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7095" Name="Pos231">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7095:7095" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31965" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31966" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31967" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31968" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31969" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos231/1_cy5_fluor/11.tiff">urn:uuid:9b64738b-466a-426c-97c7-707e55e899a5</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos231/2_cy3_fluor/11.tiff">urn:uuid:c4a529ac-c0e7-40e1-8e02-747874800e0e</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos231/3_TxR_fluor/11.tiff">urn:uuid:a4887c1e-a27e-4524-aa1a-57e2d4cc63c2</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos231/4_fam_flour/11.tiff">urn:uuid:cc6e5018-6280-4309-b8ad-14891f244b22</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos231/phase/11.tiff">urn:uuid:b601ac0d-7c53-44bb-b2b4-71beaeed2554</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7096" Name="Pos232">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7096:7096" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31970" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31971" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31972" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31973" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31974" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos232/1_cy5_fluor/11.tiff">urn:uuid:bd56c3b5-3bb5-4ca4-a3f9-e4c92379eea3</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos232/2_cy3_fluor/11.tiff">urn:uuid:33219be7-03dd-40fe-84a3-5c56ddb45a99</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos232/3_TxR_fluor/11.tiff">urn:uuid:0d51ce81-c677-483a-bb10-44962db23253</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos232/4_fam_flour/11.tiff">urn:uuid:408e00ba-7b8d-4dfb-a120-05684d2231ba</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos232/phase/11.tiff">urn:uuid:f37d7f6f-bddb-4105-9b0c-23bf4e0b506e</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7097" Name="Pos233">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7097:7097" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31975" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31976" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31977" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31978" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31979" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos233/1_cy5_fluor/11.tiff">urn:uuid:2a866328-70d5-458e-90ee-9ae368fe3063</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos233/2_cy3_fluor/11.tiff">urn:uuid:497a24c2-0228-4be9-84f7-1a9ba629b50a</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos233/3_TxR_fluor/11.tiff">urn:uuid:8f0fc1b3-4744-40ce-8b64-2faa28a0e676</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos233/4_fam_flour/11.tiff">urn:uuid:74892659-3563-476c-87da-76ebb1200746</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos233/phase/11.tiff">urn:uuid:8422c770-6216-4a2e-9b08-351aa6b16457</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7098" Name="Pos234">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7098:7098" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31980" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31981" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31982" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31983" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31984" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos234/1_cy5_fluor/11.tiff">urn:uuid:1b9b0701-936e-4083-b4c8-eaf5ab45e55b</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos234/2_cy3_fluor/11.tiff">urn:uuid:3c49d257-1e97-430f-b433-1718a7f84a12</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos234/3_TxR_fluor/11.tiff">urn:uuid:b2396620-42ad-48db-be8d-e9d6ee621a9f</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos234/4_fam_flour/11.tiff">urn:uuid:267c98f2-7c45-4622-8ecb-8f49b4e47d52</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos234/phase/11.tiff">urn:uuid:643a65af-efce-4505-91ee-f60b6a3e4761</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7099" Name="Pos235">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7099:7099" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31985" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31986" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31987" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31988" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31989" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos235/1_cy5_fluor/11.tiff">urn:uuid:d9000738-9843-412a-80c8-75d18b8ba8a8</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos235/2_cy3_fluor/11.tiff">urn:uuid:ff63c659-49ee-4ba0-982e-3b3f7df905c3</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos235/3_TxR_fluor/11.tiff">urn:uuid:1e061031-6a53-4020-8620-69c103d5a04a</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos235/4_fam_flour/11.tiff">urn:uuid:23f5d37b-ae56-4a70-86e9-3c00e2c264dc</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos235/phase/11.tiff">urn:uuid:ecaa0181-8025-4193-abd2-0f1938abc4ea</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7100" Name="Pos236">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7100:7100" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31990" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31991" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31992" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31993" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31994" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos236/1_cy5_fluor/11.tiff">urn:uuid:9d39832e-42f7-4c57-9c2c-609b5f607e43</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos236/2_cy3_fluor/11.tiff">urn:uuid:30e5dfaa-655c-44d0-986d-2777849118da</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos236/3_TxR_fluor/11.tiff">urn:uuid:68fe93ee-47a4-4ce1-8dbf-d423118fdbec</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos236/4_fam_flour/11.tiff">urn:uuid:62a8ec15-a50a-460e-83e6-76f2da5b1f25</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos236/phase/11.tiff">urn:uuid:2e0eaeab-ce0f-4a70-9227-b4f8476e4a10</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7101" Name="Pos237">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7101:7101" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:31995" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:31996" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:31997" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:31998" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:31999" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos237/1_cy5_fluor/11.tiff">urn:uuid:471ffc35-0b15-4920-a9a9-bb7da33aadb2</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos237/2_cy3_fluor/11.tiff">urn:uuid:3bb7f071-12df-4bd8-92b1-d85eb1c4e879</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos237/3_TxR_fluor/11.tiff">urn:uuid:26607e2c-c1db-41b4-ae27-50b830ba3014</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos237/4_fam_flour/11.tiff">urn:uuid:1e64db2f-558f-4ba2-8a4a-329043afb08b</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos237/phase/11.tiff">urn:uuid:90fc5808-850a-4341-bbd9-164fe8ebf7ba</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7102" Name="Pos238">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7102:7102" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:32000" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:32001" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:32002" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:32003" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:32004" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos238/1_cy5_fluor/11.tiff">urn:uuid:f503cbea-d722-45b8-9799-3aa2fc57fdab</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos238/2_cy3_fluor/11.tiff">urn:uuid:bd316a9c-1a09-42b0-8ec9-c01ca09b7aa2</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos238/3_TxR_fluor/11.tiff">urn:uuid:64774e6e-02b9-4663-829a-d3d1a5abcf50</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos238/4_fam_flour/11.tiff">urn:uuid:8e1a0d5b-3e97-4622-a2ff-52725cd86d12</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos238/phase/11.tiff">urn:uuid:962f0918-419e-4782-8f4a-9d678e717e5a</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7103" Name="Pos239">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7103:7103" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:32005" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:32006" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:32007" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:32008" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:32009" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos239/1_cy5_fluor/11.tiff">urn:uuid:cd9340ac-875d-462e-b08a-f1503d833c8d</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos239/2_cy3_fluor/11.tiff">urn:uuid:c17647a3-25a9-4326-990c-d6f88efe81d0</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos239/3_TxR_fluor/11.tiff">urn:uuid:5584dff4-56e1-47c0-96e7-5e1f44f3eb08</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos239/4_fam_flour/11.tiff">urn:uuid:7154ea0c-c142-42f3-ba7f-c27939d39d05</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos239/phase/11.tiff">urn:uuid:822aef21-e959-4dcf-a62d-5a57167d9df1</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7104" Name="Pos240">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7104:7104" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:32010" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:32011" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:32012" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:32013" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:32014" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos240/1_cy5_fluor/11.tiff">urn:uuid:902b5111-92dd-4561-adb2-99eff95794d8</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos240/2_cy3_fluor/11.tiff">urn:uuid:7264c694-6791-4884-87b5-ba4c312df0a2</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos240/3_TxR_fluor/11.tiff">urn:uuid:eb324221-8f13-484f-a940-4c05595033f2</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos240/4_fam_flour/11.tiff">urn:uuid:624459a4-94ed-40fa-bbc9-da76c22b634b</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos240/phase/11.tiff">urn:uuid:09b3e15d-01c6-4beb-a25b-d7f3af2ffeb9</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7105" Name="Pos241">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7105:7105" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:32015" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:32016" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:32017" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:32018" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:32019" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos241/1_cy5_fluor/11.tiff">urn:uuid:933c9d45-35fd-44e9-933a-44a2c45eb2b5</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos241/2_cy3_fluor/11.tiff">urn:uuid:738c644d-7aae-425d-8dfc-4020965d36ad</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos241/3_TxR_fluor/11.tiff">urn:uuid:dcfc8c0f-e891-47b7-bedb-efd5197f0535</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos241/4_fam_flour/11.tiff">urn:uuid:eed0dbed-29fc-443b-b91a-276dc4bb391a</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos241/phase/11.tiff">urn:uuid:cec49a38-4323-4b3c-b996-361f8f7d54a5</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7106" Name="Pos242">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7106:7106" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:32020" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:32021" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:32022" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:32023" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:32024" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos242/1_cy5_fluor/11.tiff">urn:uuid:06148d0e-81b3-43b7-97d8-3ff220d4fd52</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos242/2_cy3_fluor/11.tiff">urn:uuid:4032a1e3-41da-4516-8431-d0cedab61396</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos242/3_TxR_fluor/11.tiff">urn:uuid:3c9902f1-5cb8-4a6b-b357-bf7c9ed636bd</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos242/4_fam_flour/11.tiff">urn:uuid:dc950dfc-9c5a-428c-ab4e-0d197866818c</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos242/phase/11.tiff">urn:uuid:36f65798-990f-4cbf-b10b-e0f7ce4ae7dd</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7107" Name="Pos243">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7107:7107" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:32025" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:32026" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:32027" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:32028" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:32029" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos243/1_cy5_fluor/11.tiff">urn:uuid:9f872cc2-b208-45b8-a10c-dcec7f8f7369</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos243/2_cy3_fluor/11.tiff">urn:uuid:651f7128-ff9a-4748-9682-1247e8812bf3</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos243/3_TxR_fluor/11.tiff">urn:uuid:4b7a6f6c-0433-497e-822d-51b9e4e375cf</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos243/4_fam_flour/11.tiff">urn:uuid:6d32b33b-eb28-47bb-a8ea-2db6f49f37e8</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos243/phase/11.tiff">urn:uuid:88dc5e52-fd57-4a1a-bf27-cb679ba9f0f0</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7108" Name="Pos244">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7108:7108" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:32030" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:32031" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:32032" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:32033" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:32034" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos244/1_cy5_fluor/11.tiff">urn:uuid:046f89de-49ea-4a78-a2cf-dd1508282344</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos244/2_cy3_fluor/11.tiff">urn:uuid:59e66911-77b0-4dea-aab6-4ccb2448a056</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos244/3_TxR_fluor/11.tiff">urn:uuid:740d1684-b569-499b-905d-355fb77cc13e</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos244/4_fam_flour/11.tiff">urn:uuid:30ce5354-d35e-4d19-a946-829b29483fe1</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos244/phase/11.tiff">urn:uuid:3d63ca85-8fcf-4e99-b875-87886403955d</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7109" Name="Pos245">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:7109:7109" SizeC="5" SizeT="1" SizeX="2048" SizeY="879" SizeZ="1" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:32035" Name="Cy5" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:32036" Name="Cy3" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:32037" Name="TxR" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:32038" Name="Fam" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:32039" Name="Phase" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos245/1_cy5_fluor/11.tiff">urn:uuid:fbdf1214-d70c-4975-9393-5d1d4b804843</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos245/2_cy3_fluor/11.tiff">urn:uuid:0a9aba90-3534-49d5-88d6-3c651ce0d60b</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos245/3_TxR_fluor/11.tiff">urn:uuid:928e1717-fb6c-4fde-9a8c-ca5b050b160d</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos245/4_fam_flour/11.tiff">urn:uuid:8b6c43f5-4457-44cc-a7c7-558bf587bfa5</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0">
+        <UUID FileName="Pos245/phase/11.tiff">urn:uuid:5d710468-0a1a-499f-9581-43e188c6fb7c</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>
