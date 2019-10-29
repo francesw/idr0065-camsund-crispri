@@ -28,6 +28,7 @@ import subprocess
 
 BASE_DIRECTORY = "/uod/idr/filesets/idr0065-camsund-crispri/"
 TIMESTAMPS_FILE = join(BASE_DIRECTORY, "20190823-ftp", "acq_time.txt")
+DATA_DIRECTORY = join(BASE_DIRECTORY, "20190930-ftp")
 MAPPINGS_FILE = join(BASE_DIRECTORY, "20190823-ftp", "fluor_phase_link.txt")
 EXPERIMENTA_DIRECTORY = "/uod/idr/metadata/idr0065-camsund-crispri/experimentA"
 EXPERIMENTB_DIRECTORY = "/uod/idr/metadata/idr0065-camsund-crispri/experimentB"
@@ -170,6 +171,12 @@ def create_phenotypic_companions():
                 image.add_plane(c=1, z=0, t=t, options=plane_options)
             images.append(image)
 
+            position_dir = join(EXPERIMENTA_DIRECTORY, 'companions', slide,
+                                "pheno", position)
+            if not os.path.lexists(position_dir):
+                os.symlink(join(DATA_DIRECTORY, slide, "pheno", position),
+                           position_dir)
+
         companion_file = join(
             EXPERIMENTA_DIRECTORY, 'companions', slide, "pheno",
             slide + '.companion.ome')
@@ -226,6 +233,12 @@ def create_genotypic_companions(slides):
                     get_genotypic_filename(position, "phase", index),
                     c=4, z=0, t=0)
                 images.append(image)
+
+                position_dir = join(EXPERIMENTB_DIRECTORY, 'companions', slide,
+                                    'geno', position)
+                if not os.path.lexists(position_dir):
+                    os.symlink(join(DATA_DIRECTORY, slide, "geno", position),
+                               position_dir)
 
             companion_file = join(
                 EXPERIMENTB_DIRECTORY, 'companions', slide, "geno",
