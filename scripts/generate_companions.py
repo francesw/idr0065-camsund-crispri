@@ -242,12 +242,12 @@ def create_genotypic_companions(slides):
 
             companion_file = join(
                 EXPERIMENTB_DIRECTORY, 'companions', slide, "geno",
-                '%s_cycle%02g.companion.ome' % (slide, index))
+                '%s_round-%02g.companion.ome' % (slide, index))
             write_companion(images, companion_file)
 
             filePaths.append(
                 "Project:name:idr0065-camsund-crispri/experimentB/"
-                "Dataset:name:%s_cycle%02g\t"
+                "Dataset:name:%s_round-%02g\t"
                 "%s\t%s\n" % (slide, index, companion_file, slide))
 
     tsv = join(EXPERIMENTB_DIRECTORY, 'idr0065-experimentB-filePaths.tsv')
