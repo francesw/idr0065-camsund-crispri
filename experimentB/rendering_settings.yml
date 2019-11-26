@@ -1,0 +1,47 @@
+---
+channels:
+    1:
+        active: true
+        color: FF0000
+        end: 23567.0
+        label: Cy5
+        max: 65535.0
+        min: 0.0
+        start: 2000.0
+    2:
+        active: true
+        color: 00FF00
+        end: 8000.0
+        label: Cy3
+        max: 65535.0
+        min: 0.0
+        start: 1000.0
+    3:
+        active: true
+        color: 0000FF
+        end: 10000.0
+        label: TxR
+        max: 65535.0
+        min: 0.0
+        start: 3000.0
+    4:
+        active: true
+        color: FFFF00
+        end: 3000.0
+        label: Fam
+        max: 65535.0
+        min: 0.0
+        start: 1000.0
+    5:
+        active: true
+        color: FFFFFF
+        end: 45000.0
+        label: Phase
+        max: 65535.0
+        min: 0.0
+        start: 4500.0
+greyscale: false
+t: 1
+version: 2
+z: 1
+
