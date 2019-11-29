@@ -19,9 +19,9 @@ import omero.clients
 import omero.cli
 from omero_upload import upload_ln_s
 
-project_id = 954
-attachment_file = "/tmp/attachments_geno.txt"
-link_to_image = False
+project_id = 954 # 952
+attachment_file = "/tmp/attachments_geno.txt" # "/tmp/attachments.txt"
+link_to_image = False # True
 
 OMERO_DATA_DIR = '/data/OMERO'
 NAMESPACE = 'openmicroscopy.org/idr/analysis/original'
